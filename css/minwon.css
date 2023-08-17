@@ -1,0 +1,545 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.m_main {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.m_container {
+    display: flex;
+    width: 1600px;
+    gap: 80px;
+    margin: 0 auto;
+    
+}
+
+.m_left {
+    display: block;
+    width: 330px;
+    
+}
+
+.m_left > h2 {
+    text-align: center;
+    height: 180px;
+    padding-top: 65px;
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: url('../images/minwon/side_ti.png');
+}
+
+.sm_title {
+    border-bottom: 1px solid #eee;
+}
+
+.sm_title:last-child {
+    border-bottom: 0;
+}
+
+
+.sm_title > a {
+    display: block;
+    width: 329px;
+    font-size: 19px;
+    color: #555;
+    font-weight: bold;
+    padding: 17px 44px 17px 20px;
+}
+
+.sm_title > ul {
+    display: none;
+    padding: 13px 20px;
+    border-top: 1px solid #005bab;
+}
+
+.sm_title > ul > li {
+    border-bottom: 1px solid #eee;
+}
+
+.sm_title > ul> li:last-child  {
+    border-bottom: 0;
+}
+
+.sm_title > ul > li > a {
+    font-size: 16px;
+    color: #636363;
+    display: block;
+    width: 286px;
+    height: 50px;
+    padding: 10px 0;
+    
+}
+
+.sub_menu > ul {
+    padding: 25px 0;
+    margin-top: -25px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #888;
+    z-index: 1;
+}
+
+.sub_menu > ul > li > a:hover {
+    color: #005bab
+}
+
+.sm_title > ul >li > a:hover {
+    color: #005bab;
+}
+
+.m_center {
+    display: block;
+    width: 100%;
+}
+
+.m_contents {
+    width: 1188px;
+}
+
+
+.mc_link {
+    width: 1188px;
+}
+
+.tit_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m_center {
+    width: 100%;
+    position: relative;
+}
+
+.m_center h3 {
+    margin: 60px 0 15px;
+    font-size: 24px;
+    color: #001a64;
+}
+
+.m_center h4 {
+    margin: 25px 0 15px;
+    font-size: 20px;
+    color: #1c73d2;
+}
+
+.top_con {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.mc_title {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.mc_title > h2, .mc_tit_img {
+    padding-top: 25px;
+    display: block;
+    font-size: 30px;
+    color: #333;
+}
+
+.mc_tit_img img{
+    padding: 0 10px;    
+}
+
+.m_navi {
+    width: 100%;
+    display: block;
+    height: 57px;
+    padding: 8px 0 11px 0;
+}
+
+.mc_navi {
+    display: flex;
+    line-height: 30px;
+    margin-top: 8px;
+}
+
+.mc_navi li > span {
+    font-size: 5px;
+}
+
+.mc_navi > li {
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    padding-left: 6px;
+}
+
+.mc_navi > li img {
+    display: block;
+    padding-top: 5px;
+    width: 15px;
+    height: 20px;
+}
+
+.mc_navi > li:nth-child(1) {
+    width: 40px;
+}
+
+.mc_navi > li:nth-child(2) {
+    width: 75px;
+}
+
+.mc_navi > li:nth-child(3) {
+    width: 100px;
+
+}
+
+
+.mc_navi > li:nth-child(4) {
+    width: 160px;
+}
+
+
+.m_t_b_line img {
+    width: 100%;
+}
+
+.mc_box_01 {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #0861bc;
+    font-weight: bold;
+}
+
+.bu_01 > li {
+    font-size: 16px;
+}
+
+.bu_01 > li b {
+    color: #001a64;
+    font-weight: bold;
+}
+
+.bu_01 > li span {
+    color: #ca5007;
+}
+
+.mc_box_02 {
+    display: block;
+    background-color: #f7f7f7;
+    color: #444;
+    margin: 10px 0 25px;
+    padding: 25px 40px;
+    font-size: 16px;
+}
+
+.bu_02 {
+    padding: 2px 0 5px;
+}
+
+.bu_02 > li {
+    margin-bottom: 7px;
+    font-size: 16px;
+}
+
+.bu_02 > li b {
+    color: #001a64;
+    font-weight: bold;
+}
+
+.mc_tb1 {
+    width: 100%;
+    border-top: 2px solid #001a64;
+    border-bottom: 1px solid #888;
+    margin: 10px 0;
+}
+
+
+.mc_tb1 >thead > tr {
+    text-align: center;
+    height: 63px;
+    padding: 18px 8px;
+    background-color: #f7f8fa;
+}
+
+.mc_tb1 >thead > tr > th {
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    font-size: 16px;
+    color: #001a64;
+}
+
+.mc_tb1 >thead > tr > th:nth-child(4) {
+    border-right: 0;
+}
+
+.mc_tb1 >tbody > tr {
+    text-align: center;
+    height: 57px;
+    padding: 14px 8px;
+}
+
+.mc_tb1 > tbody > tr > td{
+    border-right: 1px solid #888;
+    font-size: 16px;
+    color: #555;
+}
+
+.mc_tb1 >tbody > tr > td:nth-child(4){
+    border-right: 0;
+    color: #ca5007;
+}
+
+.mc_box_02 > ul > li {
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #444;
+}
+
+.mc_box_02 > ul > li > b{
+    display: block;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #001a64;
+    border-radius: 15px;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.mc_link {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #001a64;
+}
+
+.tit_link {
+    width: 100%;
+    height: 53px;
+    line-height: 30px;
+    padding: 10px 20px;
+    background-color: #eaf0f7;
+}
+
+.tit_link p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tit_link a{
+    display: block;
+    width: 137px;
+    height: 32px;
+    background-color: #fff;
+    padding: 0 40px 0 10px;
+
+}
+
+.link_txt {
+    width: 100%;
+    height: 50px;
+    line-height: 28px;
+    border-top: 1px solid #ddd ;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #444;
+    padding: 10px 20px 10px 35px;
+}
+
+.faction {
+    display: block;
+    width: 100%;
+    margin: 35px 0;
+}
+
+.fac_box {
+    width: 100%;
+    display: flex;
+    padding: 25px 48px;
+    background-color: #f7f7f7;
+    gap: 63px;
+    margin-bottom: 23px;
+}
+
+.open_text {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.open_text span {
+    color: #c50000;
+}
+
+.open_text a {
+    color: #2993d1;
+}
+
+.damdang {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    height: 58px;
+    padding: 15px 0 15px 23px;
+    border: 1px solid #ddd;
+}
+
+.damdang li {
+    font-size: 16px;
+}
+
+.damdang li b {
+    margin-right: 10px;
+    color: #333;
+}
+
+.damdang li img {
+    margin-right: 10px;
+    height: 16px;
+    margin-top: 6px;
+}
+
+.question {
+    display: block;
+    padding: 20px 25px;
+    width: 100%;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.quest {
+    width: 1005;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #333;
+    padding: 8px 0;
+}
+
+.input_radio > label > input {
+    margin: 0 5px 0 15px; 
+}
+
+.opinion > label {
+    display: flex;
+}
+
+#coment {
+    width: 908px;
+    height: 45px;
+    border: 0;
+    background-color: #f7f7f7;
+}
+
+.opinion > label > a {
+    display: block;
+    width: 227px;
+    height: 45px;
+    background-color: #2d55d3;
+    color: #fff;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/* 전자민원 */
+
+.open_text > p {
+    width: 1090px;
+    text-align: center;
+}
+
+.mc_box_03 {
+    display: block;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    border-top: 3px solid #001a64;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.mc_box_03_line {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 3px;
+    background-color: #F2bb26;
+    top: -3px;
+    right: 0;
+}
+
+.mc_box_03 p {
+    
+    margin-top: 30px;
+    font-size: 38px;
+    color: #333;
+    font-weight: bold;
+}
+
+.underline {
+    
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    text-align: center;
+    margin: 0 503px;
+}
+
+.mc_box_03 span {
+    display: block;
+    padding: 20px 0;
+}
+
+.mc_box_03_btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    
+}
+
+.mc_box_03_btn a{
+    display: block;
+    padding: 0 10px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+}
+
+
+.mc_box_03_btn a:last-child {
+    background-color: #333;
+    color: #fff;
+}
+
+.mc_box_logo {
+    display: block;
+    position: absolute;
+    width: 180px;
+    height: 42px;
+    right: 60px;
+    bottom: 20px;
+}
+
+.mc_box_logo img{
+    width: 100px;
+    height: 42px;
+}
+
+
